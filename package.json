@@ -1,16 +1,15 @@
 {
-  "name": "gulp-css-image",
-  "version": "0.3.0",
+  "name": "gulp-css-images",
+  "version": "0.1.0",
   "description": "A plugin for Gulp",
   "keywords": [
     "gulpplugin"
   ],
   "author": {
-    "name": "Efremov Alex",
-    "email": "lexich121@gmail.com",
-    "url": "https://github.com/lexich"
+    "name": "Pwl Prg",
+    "url": "https://github.com/pwlprg"
   },
-  "repository": "lexich/gulp-css-image",
+  "repository": "pwlprg/gulp-css-images",
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
     "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
